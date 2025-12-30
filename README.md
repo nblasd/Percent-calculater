@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🚀 Percent-calculater
+<div align="center"> <img width="1200" height="475" alt="Project Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" /> </div>
 
-# Run and deploy your AI Studio app
+Welcome! This is an application I've been working on. I wanted to create something that was both functional and easy to deploy.
 
-This contains everything you need to run your app locally.
+Getting Started on Your Machine
+If you want to take a look under the hood or run a local copy of this app, I've kept the setup process pretty straightforward.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1sIRFt_1jcmCp7GenauGRjrVysURLbVMG
+What You'll Need
+Before diving in, just make sure you have Node.js installed on your computer.
 
-## Run Locally
+Setup Steps
+Install the essentials: Open your terminal in the project folder and run:
 
-**Prerequisites:**  Node.js
+Bash
 
+npm install
+This will grab all the necessary packages I used to build the app.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Add your secret sauce (API Key): You’ll need your own Gemini API key for the AI to work. Find the .env.local file in the directory and set the GEMINI_API_KEY variable to your personal key.
+
+Fire it up: Once that's done, you're ready to go! Start the development server with:
+
+Bash
+
+npm run dev
+After running that, the app should be live in your browser. Feel free to poke around and see how it works!
